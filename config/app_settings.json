@@ -1,0 +1,22 @@
+{
+  "rclone": {
+    "checkers": 8,
+    "transfers": 4,
+    "chunk_size": 64,
+    "buffer_size": 0,
+    "retries": 10,
+    "low_level_retries": 10
+  },
+  "download": {
+    "bwlimit_enabled": false,
+    "bwlimit": 1,
+    "skip_existing": true,
+    "delete_empty_dirs": false
+  },
+  "ui": {
+    "notify_on_complete": true,
+    "notify_on_error": true,
+    "verbose_logging": true,
+    "auto_export_log": true
+  }
+}
